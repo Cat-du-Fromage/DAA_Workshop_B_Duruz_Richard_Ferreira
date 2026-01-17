@@ -159,7 +159,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-**Point important** : Si l'utilisateur refuse la permission, votre fonctionnalité ne marchera pas. Prévoyez toujours un message clair pour l'expliquer.
+**Point important** : Si l'utilisateur refuse la permission, votre fonctionnalité ne marchera pas.
 
 ### Étape 3 : Préparer l'image
 
@@ -186,7 +186,7 @@ class TextRecognitionActivity : AppCompatActivity() {
     // Initialiser le recognizer pour la version ON-DEVICE (locale)
     private val recognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS)
     
-    // Si vous vouliez utiliser la version CLOUD (non recommandé pour débuter), ce serait :
+    // Si vous voulez utiliser la version CLOUD , ce serait :
     // private val recognizer = TextRecognition.getClient(CloudTextRecognizerOptions.Builder().build())
     
     override fun onDestroy() {
@@ -406,8 +406,6 @@ Attention ! Si le téléchargement du modèle n'as pas été forcé dans le mani
 | **Précision** | ✅ Très bonne | ✅ Excellente |
 | **Configuration** | ✅ Simple | ⚠️ Nécessite clé API |
 | **Vie privée** | ✅ Totale (local) | ⚠️ Données envoyées à Google |
-
-**Recommandation pour débuter** : Utilisez la version on-device. Elle est amplement suffisante pour 95% des cas d'usage et beaucoup plus simple à mettre en place.
 
 ## Conclusion
 
