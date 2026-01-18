@@ -12,22 +12,13 @@
         android:theme="@style/Theme.Daa" >
 
         <activity
-            android:name=".MainActivity"
+            android:name=".TextRecognitionActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".TestFrenchActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".TextRecognitionActivity"
-            android:exported="true" />
-
 
         <!-- Vérification des modèles on-device -->
         <meta-data
