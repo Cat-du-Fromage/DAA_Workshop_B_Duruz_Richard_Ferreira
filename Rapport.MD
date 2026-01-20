@@ -1,5 +1,11 @@
 # Workshop - ML Kit Text Recognition (OCR)
 **DAA**  
+
+Auteurs
+* Duruz Florian
+* Ferreira Silva Sven
+* Richard Aurélien
+
 13 janvier 2026
 
 ## Introduction
